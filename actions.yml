@@ -1,0 +1,14 @@
+name: 'Helm3 GitHub Action'
+description: 'GitHub Action for running helm'
+inputs:
+  command:  # id of input
+    description: 'Command'
+    required: true
+outputs:
+  result: # id of output
+    description: 'Result of the output'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.command }}
