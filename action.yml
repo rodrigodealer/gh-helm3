@@ -4,18 +4,6 @@ inputs:
   command:  # id of input
     description: 'Command'
     required: true
-  aws_client_id:  # id of input
-    description: 'AWS Client ID'
-    required: true
-  aws_client_secret:  # id of input
-    description: 'AWS Client Secret'
-    required: true
-  cluster_id:  # id of input
-    description: 'Cluster ID'
-    required: true
-  region:  # id of input
-    description: 'Cluster region'
-    required: true
 outputs:
   result: # id of output
     description: 'Result of the output'
